@@ -4,56 +4,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#172c24">
-  <meta name="description" content="Get in touch with Creative Garden Projects about Garden Control Centre, garden lighting and smarter garden care.">
+  <meta name="description" content="Contact Creative Garden Projects about Garden Control Centre, garden technology and collaboration.">
   <title>Contact | Creative Garden Projects</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style>
-    .contact-page { min-height: 65vh; padding: 100px 0 120px; background: var(--cream); }
-    .contact-content { max-width: 760px; }
-    .contact-content h1 { color: var(--forest); font-size: clamp(44px, 7vw, 76px); margin: 0 0 25px; }
-    .contact-content h1 em { color: #738660; font-family: var(--serif); font-weight: 400; }
-    .contact-intro { max-width: 620px; color: var(--muted); font-size: 17px; line-height: 1.9; }
-    .contact-email { display: inline-flex; align-items: center; gap: 16px; margin-top: 24px; padding: 17px 22px; background: var(--forest); color: white; border-radius: 3px; font-size: 14px; font-weight: 700; overflow-wrap: anywhere; }
-    .contact-email span { color: var(--lime); }
-    .contact-back { display: inline-block; margin-top: 35px; font-size: 12px; font-weight: 700; color: var(--forest); }
-    @media (max-width: 700px) { .contact-page { padding: 75px 0 90px; } .contact-email { font-size: 12px; padding: 15px; } }
+    .contact-page { min-height: 65vh; padding: 7rem 0 6rem; }
+    .contact-card { max-width: 760px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid rgba(128,164,139,.25); border-radius: 24px; background: rgba(23,44,36,.045); }
+    .contact-card h1 { margin: .5rem 0 1rem; font-family: Manrope, sans-serif; font-size: clamp(2.3rem, 6vw, 4rem); line-height: 1.05; letter-spacing: -.04em; }
+    .contact-card h1 em { color: #3f805e; font-style: normal; }
+    .contact-card p { max-width: 58ch; line-height: 1.75; }
+    .contact-email { display: inline-flex; margin: 1.2rem 0; padding: .95rem 1.25rem; border-radius: 999px; background: #214d39; color: #fff; text-decoration: none; font-weight: 700; }
+    .contact-back { display: inline-block; margin-top: 1rem; color: inherit; }
+    @media (max-width: 600px) { .contact-page { padding: 4rem 0; } .contact-email { max-width: 100%; overflow-wrap: anywhere; } }
   </style>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Creative Garden Projects home">
-      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 31V14M20 22C12 22 8 17 8 9c8 0 13 4 12 13M20 25c1-8 6-13 13-13 0 8-5 13-13 15"/><path d="M9 32h22"/></svg></span>
-      <span class="brand-copy"><strong>Creative Garden Projects</strong><small>GARDEN CONTROL CENTRE</small></span>
+    <a class="brand" href="index.html#top" aria-label="Garden Control Centre home">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 32V15M20 22C9 22 7 14 8 8c8 0 13 4 12 14M20 26c1-9 7-14 14-14 1 8-4 14-14 16"/><path d="M8 34h24"/></svg></span>
+      <span>GARDEN <b>CONTROL CENTRE</b></span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open navigation"><span></span><span></span></button>
-    <nav id="nav" class="nav">
-      <a href="index.html#idea">The idea</a><a href="index.html#how">How it works</a><a href="index.html#journey">The journey</a><a href="index.html#dashboard">Dashboard</a><a href="demo/" target="_blank" rel="noopener noreferrer">Try the demo ↗</a><a class="nav-cta" href="contact.html">Contact <span>↗</span></a>
+    <nav id="nav" class="nav" aria-label="Main navigation">
+      <a href="index.html#idea">The idea</a><a href="index.html#how">How it works</a><a href="index.html#journey">The journey</a><a href="index.html#dashboard">Dashboard</a><a href="demo/">Try the demo ↗</a><a href="contact.html" aria-current="page">Contact</a>
     </nav>
   </header>
-  <main class="contact-page">
-    <div class="wrap contact-content">
-      <div class="section-kicker"><span>06</span> GET IN TOUCH</div>
-      <h1>Let's talk about<br><em>your garden.</em></h1>
-      <p class="contact-intro">Have a question about Garden Control Centre, garden lighting, sensors or the possibilities of smarter garden care? I'd be happy to hear from you.</p>
-      <p class="contact-intro">Send me an email with your question or a little about your project, and I'll get back to you.</p>
-      <a class="contact-email" href="mailto:hello@creativegardenprojects.co.uk?subject=Garden%20Control%20Centre%20enquiry">Email hello@creativegardenprojects.co.uk <span>↗</span></a>
-      <p><a class="contact-back" href="index.html">← Back to the main website</a></p>
-    </div>
+  <main class="contact-page wrap">
+    <section class="contact-card">
+      <p class="eyebrow">CREATIVE GARDEN PROJECTS</p>
+      <h1>Let's talk about<br><em>a smarter garden.</em></h1>
+      <p>Interested in Garden Control Centre, garden automation, sensors or accessible technology? Have an idea to share or want to follow the project as it develops? I'd be happy to hear from you.</p>
+      <p>For now, the easiest way to get in touch is by email.</p>
+      <a class="contact-email" href="mailto:hello@creativegardenprojects.co.uk?subject=Garden%20Control%20Centre%20enquiry">hello@creativegardenprojects.co.uk ↗</a>
+      <p><small>Email routing is still being set up, so the address may not receive messages yet.</small></p>
+      <a class="contact-back" href="index.html#top">← Back to Garden Control Centre</a>
+    </section>
   </main>
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <a class="brand footer-brand" href="index.html" aria-label="Creative Garden Projects home">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 31V14M20 22C12 22 8 17 8 9c8 0 13 4 12 13M20 25c1-8 6-13 13-13 0 8-5 13-13 15"/><path d="M9 32h22"/></svg></span>
-        <span class="brand-copy"><strong>Creative Garden Projects</strong><small>GARDEN CONTROL CENTRE</small></span>
-      </a>
-      <p>An evolving garden technology project.</p>
-      <a class="footer-github" href="mailto:hello@creativegardenprojects.co.uk">Email us ↗</a>
-      <span class="copyright">© <span id="year">2026</span> Garden Control Centre</span>
-    </div>
-  </footer>
-  <script src="script.js"></script>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="index.html#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M20 32V15M20 22C9 22 7 14 8 8c8 0 13 4 12 14M20 26c1-9 7-14 14-14 1 8-4 14-14 16"/><path d="M8 34h24"/></svg></span><span>GARDEN <b>CONTROL CENTRE</b></span></a><p>An evolving garden technology project.</p><a class="footer-contact" href="mailto:hello@creativegardenprojects.co.uk?subject=Garden%20Control%20Centre%20enquiry">Contact by email ↗</a><span class="copyright">© <span id="year">2026</span> Garden Control Centre</span></div></footer>
 </body>
 </html>
