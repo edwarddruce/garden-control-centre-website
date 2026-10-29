@@ -25,3 +25,37 @@
 /* Photo timeline: keep the light and brickwork in focus on the portrait detail image. */
 .photo-timeline .timeline-detail{object-position:center 18%;}
 .photo-timeline .timeline-before{object-position:center 48%;}
+
+/* Mobile layout fixes for the Get in touch section */
+@media (max-width: 700px) {
+  .connect {
+    overflow: hidden;
+  }
+
+  .connect-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .connect-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+
+  .connect-actions a {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .connect-small {
+    position: relative;
+    z-index: 1;
+    line-height: 1.6;
+  }
+}
