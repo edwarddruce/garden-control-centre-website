@@ -12,10 +12,8 @@ This folder can be published as a static site using GitHub Pages, Netlify, Azure
 
 ## Before publishing publicly
 
-- Check the GitHub repository URL and visibility.
 - The site now includes owner-supplied photographs of the real garden, lighting tests and controller wiring, plus screenshots of the live dashboard. Any remaining illustrative imagery is labelled clearly.
-- Add a preferred direct contact email or contact form if you want enquiries to go somewhere other than GitHub Issues.
-- Confirm that the current code and pin mappings in the repository match the technical descriptions on the site.
+- Configure a public contact address or email-routing alias before publishing contact details.
 
 ## Structure
 
