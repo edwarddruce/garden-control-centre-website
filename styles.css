@@ -21,3 +21,7 @@
 .dashboard-image-link img{display:block;width:100%;height:auto;max-height:680px;object-fit:contain;object-position:top center;transition:transform .25s ease}
 .dashboard-image-link:hover img{transform:scale(1.015)}
 .dashboard-demo-gallery .dashboard-shot{align-self:start}
+
+/* Photo timeline: keep the light and brickwork in focus on the portrait detail image. */
+.photo-timeline .timeline-detail{object-position:center 18%;}
+.photo-timeline .timeline-before{object-position:center 48%;}
