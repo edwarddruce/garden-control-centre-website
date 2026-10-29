@@ -29,7 +29,9 @@ The current site uses photographs supplied by the project owner showing the gard
 
 ## Interactive dashboard demo
 
-Open `dashboard-demo.html` to try a simulated front-end dashboard. All values are sample data; switches, brightness controls and automation form do not control real garden equipment. The promotional homepage links to this demo.
+Open `demo/` to try the real Garden Control Centre dashboard interface with simulated data. Lighting controls, automation editing, profile settings, and sensor history work without login or a live backend. Controls do not operate real garden equipment. The promotional homepage links to this demo; the old `dashboard-demo.html` URL redirects there and preserves tab query strings.
+
+The compiled demo lives in `demo/index.html` and `demo/assets/`. To refresh it, run `npm --prefix frontend run build:demo` in the Garden Control Centre source repository, then replace those files with the matching output from `frontend/dist-demo`. Do not copy the standalone demo's `staticwebapp.config.json` into this shared website, because its hosting rules and headers are intended for a dedicated demo site. The existing root website and deployment workflow remain unchanged.
 
 
 Branding update: the promotional site header and footer now use the same Creative Garden Projects / Garden Control Centre stacked wordmark and botanical mark as the dashboard demo.
