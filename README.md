@@ -26,4 +26,12 @@ This folder can be published as a static site using GitHub Pages, Netlify, Azure
 
 
 ## Real project photographs
-The current site uses photographs supplied by the project owner showing the garden path/patio work, night-time lighting tests, the Mosfetti driver and the hand-wired prototype board. The dashboard screenshots are supplied by the project owner. Future-facing ideas are labelled as possibilities rather than existing features, and the live interface is described as a prototype.
+The current site uses photographs supplied by the project owner showing the garden path/patio work, night-time lighting tests, the Mosfetti driver and the hand-wired prototype board. The dashboard screenshots are supplied by the project owner. The weather-aware watering section reflects existing prototype logic: location-based weather/forecasts are considered alongside soil-moisture readings. Further intelligence and validation are ongoing. The live interface is described as a prototype.
+
+
+## Interactive dashboard demo
+
+Open `dashboard-demo.html` to try a simulated front-end dashboard. All values are sample data; switches, brightness controls and automation form do not control real garden equipment. The promotional homepage links to this demo.
+
+
+Branding update: the promotional site header and footer now use the same Creative Garden Projects / Garden Control Centre stacked wordmark and botanical mark as the dashboard demo.
